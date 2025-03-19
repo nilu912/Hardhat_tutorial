@@ -8,9 +8,10 @@ module.exports = {
   solidity: "0.8.28",
 
   networks: {
-    ropsten: {
-      url: ``,
-      accoutns: [``],
-    }
+    hardhat: {},
+    // ropsten: {
+    //   url: ``,
+    //   accoutns: [``],
+    // }
   }
 };

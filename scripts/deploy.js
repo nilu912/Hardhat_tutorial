@@ -1,5 +1,6 @@
 async function main() {
-  const [deployer] = await ethers.getSighners();
+  const [deployer] = await ethers.getSigners();
+  console.log(deployer.address);
 
   const Token = await ethers.getContractFactory("Token");
   const hardhatToken = await Token.deploy();
